@@ -1,0 +1,115 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set background color and font for the whole page */
+body {
+  background-color: #f2f2f2;
+  font-family: 'Lato', sans-serif;
+}
+
+/* Style the profile container */
+.profile-container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 40px;
+  text-align: center;
+  margin-top: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  background-size: contain;
+  background-position: center;
+  object-fit: cover;
+  font-family: 'Lato', sans-serif;
+  opacity: 0.9;
+}
+
+
+/* Style the greeting section */
+.greeting {
+  margin-bottom: 20px;
+}
+
+.greeting h1 {
+  font-family: 'Kanit', sans-serif;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.greeting i {
+  color: #ff6600;
+}
+
+/* Style the icons section */
+.icons {
+  margin-bottom: 21px;
+}
+
+.icons i {
+  font-size: 24px;
+  margin-right: 10px;
+  color: #333;
+  transition: transform 0.3s ease;
+}
+
+#logo:hover {
+  transform: scale(1.5);
+}
+/* Style the profile picture */
+.profile-container img {
+  width: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+/* Style the description paragraph */
+.profile-container p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #666;
+}
+
+/* Style the "Follow me" card */
+.card-white {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 40px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 840px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-white h2 {
+  font-family: 'Kanit', sans-serif;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.card-white ul {
+  list-style: none;
+}
+
+.card-white ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.card-white ul li:last-child {
+  margin-right: 0;
+}
+
+.card-white a i {
+  font-size: 24px;
+  color: #333;
+}
+.profile-container p span.highlight {
+  color: #ff9999;
+}
