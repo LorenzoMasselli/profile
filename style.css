@@ -1,115 +1,171 @@
 
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-/* Set background color and font for the whole page */
-body {
-  background-color: #f2f2f2;
+.body {
   font-family: 'Lato', sans-serif;
+  background-color: #edf2f4;
 }
 
-/* Style the profile container */
-.profile-container {
-  max-width: 800px;
-  margin: 0 auto;
-  background-color: #fff;
-  padding: 40px;
-  text-align: center;
-  margin-top: 40px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.education-img img{
+  height: 70px;
 }
 
-body {
-  background-size: contain;
+.education-card-color {
+  background-color: #ff6600;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+
+
+.navbar:hover {
+  background-color: white;
+}
+
+
+.project-card {
+  cursor: pointer;
+}
+.card-category {
+  background-size: cover;
   background-position: center;
-  object-fit: cover;
-  font-family: 'Lato', sans-serif;
-  opacity: 0.9;
+  height: 180px;
+  color: white;
+  font-size: 15px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.overlay {
+	position: absolute;
+	top: 121px;
+	left: 0;
+	width: 653px;
+	height: 5vh;
+	z-index: 100;
+
+	background: rgb(255, 255, 255);
+	background: linear-gradient( 0deg, #edf2f4 75%, #edf2f4 80%, rgba(255, 255, 255, 0.25) 95%,  rgba(255, 255, 255, 0) 100% )
 }
 
 
-/* Style the greeting section */
-.greeting {
-  margin-bottom: 20px;
+.text {
+	font-family: 'Lato', sans-serif;
+	font-size: 35px;
+	display: flex;
+	bottom: 0vh;
+	user-select: none;
+
+	.wrapper {
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-top: 10px;
+		.letter {
+			transition: ease-out 1s;
+			transform: translateY(40%);
+		}
+		.shadow {
+			transform: scale(1, -1);
+			color: #999;
+			transition: ease-in 5s, ease-out 5s;
+		}
+		&:hover {
+			.letter {
+				transform: translateY(-200%);
+			}
+			.shadow {
+				opacity: 0;
+				transform: translateY(200%);
+			}
+		}
+	}
 }
 
-.greeting h1 {
-  font-family: 'Kanit', sans-serif;
-  font-size: 28px;
-  margin-bottom: 10px;
+
+
+.description-project {
+  overflow: hidden;
+  width: 0;
+  transition: .2s ease;
+  opacity: 0;
 }
 
-.greeting i {
-  color: #ff6600;
+.project-card:hover .description-project{
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0,0,0,0.65));
+  .project-card img {
+    opacity: 0.4;
+  }
 }
 
-/* Style the icons section */
-.icons {
-  margin-bottom: 21px;
-}
-
-.icons i {
-  font-size: 24px;
-  margin-right: 10px;
-  color: #333;
-  transition: transform 0.3s ease;
-}
-
-#logo:hover {
-  transform: scale(1.5);
-}
-/* Style the profile picture */
-.profile-container img {
-  width: 200px;
-  border-radius: 50%;
-  margin-bottom: 20px;
-}
-
-/* Style the description paragraph */
-.profile-container p {
-  font-size: 16px;
-  line-height: 1.5;
-  color: #666;
-}
-
-/* Style the "Follow me" card */
-.card-white {
-  background-color: #fff;
-  padding: 20px;
-  margin-top: 40px;
+.button-link {
+  background-color: none;
+  height: 40px;
+  align-items: top;
   text-align: center;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  max-width: 840px;
-  margin-left: auto;
-  margin-right: auto;
+  color: #1B1A27!important;
+  border: none !important;
 }
 
-.card-white h2 {
-  font-family: 'Kanit', sans-serif;
-  font-size: 24px;
-  margin-bottom: 20px;
+.button-link:hover {
+  background-color: #D91C40 !important;
+  height: 40px;
+  align-items: top;
+  text-align: center;
+  color: white !important;
+  border: 2px  #D91C40 !important;
 }
 
-.card-white ul {
-  list-style: none;
+.resume-link {
+  background-color: #D91C40 !important;
+  height: 40px;
+  width: 130px;
+  align-items: top;
+  text-align: center;
+  color: white !important;
+  border: #D91C40 !important;
+}
+.banner {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    height: 300px;
+    width: 100%;
+    background-color: #D91C40;
+    color: white;
 }
 
-.card-white ul li {
-  display: inline-block;
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.underline-on-scroll {
+  text-decoration: underline #D91C40;
+}
+
+.font {
+  font-size: 20.9px;
+}
+
+.a {
+  border: none;
+  background-color: none;
   margin-right: 10px;
 }
-
-.card-white ul li:last-child {
-  margin-right: 0;
+.a:hover {
+  border: none;
+  background-color: none;
+  margin-right: 10px;
+  color: #D91C40;
+  cursor: pointer;
 }
 
-.card-white a i {
-  font-size: 24px;
-  color: #333;
-}
-.profile-container p span.highlight {
-  color: #ff9999;
+#skills {
+  margin-top: 150px;
+  background-color: white;
 }

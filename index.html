@@ -1,49 +1,496 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>My Profile</title>
-    <link rel="stylesheet" type="text/css" href="images/style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Lato:wght@700&display=swap">
-  </head>
-  <body>
-    <body>
 
-      <div class="profile-container">
-        <div class="greeting">
-          <h1>Hello <i class="fa-regular fa-hand-peace"></i></h1>
-          <h1>My name is Lorenzo!</h1>
+<head>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500&display=swap');
+  </style>
+  <title>Lorenzo Masselli</title>
+  <link rel="stylesheet" type="text/css" href="images/style.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Lato:wght@700&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body class="body">
+  <!-- ------------NavBar------------ -->
+  <nav class="navbar justify-content-center">
+    <img class="ml-2 index-button cursor" src="images/logo.png" alt="logo" style="height: 70px;width: 70px;">
+    <div class="d-flex flex-column justify-content-end mt-1 mx-2">
+      <h5 class="mt-2 mb-0 index-button cursor" style="font-size: 24px; color: #DE2F41;">My Portfolio</h5>
+    </div>
+  </nav>
+
+  <!-- ------------Index------------ -->
+  <div class="index">
+    <div class="row mx-5 mt-5 mb-0 justify-content-around">
+      <div class="col-5">
+        <h1 class="mb-0" id="headerOne"></h1>
+        <div class="overlay"></div>
+        <div class="text">
+          <div class="wrapper pt-0 pl-0">
+            <div id="L" class="letter">L</div>
+            <div class="shadow">L</div>
+          </div>
+          <div class="wrapper pt-0">
+            <div id="O" class="letter">O</div>
+            <div class="shadow">O</div>
+          </div>
+          <div class="wrapper pt-0">
+            <div id="R" class="letter">R</div>
+            <div class="shadow">R</div>
+          </div>
+          <div class="wrapper pt-0">
+            <div id="E" class="letter">E</div>
+            <div class="shadow">E</div>
+          </div>
+          <div class="wrapper pt-0">
+            <div id="N" class="letter">N</div>
+            <div class="shadow">N</div>
+          </div>
+          <div class="wrapper pt-0">
+            <div id="Z" class="letter">Z</div>
+            <div class="shadow">Z</div>
+          </div>
+          <div class="wrapper pt-0">
+            <div id="O" class="letter">O</div>
+            <div class="shadow">O</div>
+          </div>
+          <div class="wrapper pt-0">
+            <div id=" " class="letter"> </div>
+            <div class="shadow"> </div>
+          </div>
+          <div class="wrapper pt-0">
+            <div id="M" class="letter">M</div>
+            <div class="shadow">M</div>
+          </div>
+          <div class="wrapper pt-0">
+            <div id="A" class="letter">A</div>
+            <div class="shadow">A</div>
+          </div>
+          <div class="wrapper pt-0">
+            <div id="S" class="letter">S</div>
+            <div class="shadow">S</div>
+          </div>
+          <div class="wrapper pt-0">
+            <div id="S" class="letter">S</div>
+            <div class="shadow">S</div>
+          </div>
+          <div class="wrapper pt-0">
+            <div id="E" class="letter">E</div>
+            <div class="shadow">E</div>
+          </div>
+          <div class="wrapper pt-0">
+            <div id="L" class="letter">L</div>
+            <div class="shadow">L</div>
+          </div>
+          <div class="wrapper pt-0">
+            <div id="L" class="letter">L</div>
+            <div class="shadow">L</div>
+          </div>
+          <div class="wrapper pt-0">
+            <div id="I" class="letter">I</div>
+            <div class="shadow">I</div>
+          </div>
         </div>
-        <div class="icons">
-          <i class="fa-solid fa-football"></i>
-          <i class="fa-solid fa-pizza-slice"></i>
-          <i class="fa-solid fa-earth-americas"></i>
+        <p class="mt-3 mb-4">I'm a software engineer based in London. Recently, I completed a 9-week intensive coding
+          bootcamp at Le Wagon, deepening my knowledge of full-stack web development. I'm excited to continue learning
+          at a fast pace, applying my knowledge and contributing to innovative projects. I used to be a professional
+          rugby player and I enjoy staying active</p>
+        <div class="d-flex ">
+          <a class="ml-0 my-2 mr-3" href="https://github.com/LorenzoMasselli" target="_blank">
+            <i class="fab fa-github-square fa-2xl" style="color: #24292F;" id="logo"></i>
+          </a>
+          <a class="ml-2 my-2 mr-3" href="https://twitter.com/snoopdogg" target="_blank">
+            <i class="fab fa-twitter-square fa-2xl" style="color: #1D9BF0;" id="logo"></i>
+          </a>
+          <a class="ml-2 my-2 " href="https://www.linkedin.com/in/lorenzo-masselli-6a1894129/" target="_blank">
+            <i class="fab fa-linkedin-in fa-2xl" style="color: #0C65C2;" id="logo"></i>
+          </a>
         </div>
-        <img src="images/Photo.png" alt="Profile Picture">
-        <p>I was born and raised in South Africa. I played professional rugby for 7 years in Italy whilst completing my undegraduate degree in economics and management at Bocconi University. I am now learning to be a <span class="highlight">software engineer</span>. </p>
+        <a href="pdf/resume.pdf" target="_blank"><button type="button"
+            class="btn btn-outline-primary my-4 resume-link">See my resume</button>
+        </a>
+        <div class="d-flex">
+          <p class="a" id="a">01--Technical Skills </p>
+          <p class="a" id="b">02--Coding Projects </p>
+          <p class="a" id="c">03--Work Experience </p>
+          <p class="a" id="d">04--Education </p>
+          <i class="fa-solid fa-turn-down" style="position: absolute;left: 590px;top: 454px;"></i>
+        </div>
       </div>
-      <div class="card-white">
-        <h2>Follow me</h2>
-        <ul class="list-inline">
-          <li>
-            <a href="https://github.com/LorenzoMasselli" target="_blank">
-              <i class="fab fa-github-square" id="logo"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://twitter.com/elonmusk" target="_blank">
-              <i class="fab fa-twitter-square" id="logo"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/lorenzo-masselli-6a1894129/" target="_blank">
-              <i class="fab fa-linkedin-in" id="logo"></i>
-            </a>
-          </li>
-        </ul>
+      <div class="col-5 text-center">
+        <img class="ml-2 rounded-circle" src="images/coding.png" alt="logo"
+          style="height: 400px;width: 400px;object-fit: cover;">
       </div>
-    </body>
+    </div>
+  </div>
+
+  <!-- ------------Skills------------ -->
+  <div class="skills-content mx-0" id="skills">
+    <h1 class="text-center pt-5 pb-3">Technical <span id="skills-underline" style="color: #D91C40">Skills</span></h1>
+    <div class="d-flex justify-content-center">
+      <div class="m-5" style="width: 600px">
+        <h5 class="text-center">Tech I Love</h5>
+        <p>Not to give a cookie cutter answer, but I believe that the best tech for the job is the best tech for the
+          job.
+          As I believe this, I also believe that I need to keep learning and broadening my tech stack. That said, I do
+          have some go-to tech that I love working with.</p>
+        <div class="d-flex justify-content-between flex-wrap">
+          <div class="mx-3" style="width: 300px">
+            <h4>Frameworks & Libraries</h4>
+            <ul>
+              <li>Ruby on Rails</li>
+              <li>Stimulus</li>
+              <li>Mustache.js</li>
+              <li>Bootstrap</li>
+            </ul>
+          </div>
+          <div class="mx-3" style="width: 200px">
+            <h4>Developer Tools</h4>
+            <div class="grid-container">
+              <ul>
+                <li>Git</li>
+                <li>GitHub</li>
+                <li>PostgreSQL</li>
+                <li>Heroku</li>
+              </ul>
+              <ul class="ml-3">
+                <li>Figma</li>
+              </ul>
+            </div>
+          </div>
+          <div class="mx-3" style="width: 200px">
+            <h4>Languages</h4>
+            <ul>
+              <li>Ruby</li>
+              <li>Javascript ES6</li>
+              <li>SQL</li>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="" style="width: 700px">
+        <h5 class="m-5 px-3">My tech stack for personal projects is GENERALLY(but not always):</h5>
+        <div class="m-5 d-flex">
+          <img class="mx-4" style="height: 60px;" src="images/javascript.png" alt="Javascript">
+          <img class="mx-4" style="height: 60px;" src="images/rails.png" alt="Ruby on rails">
+          <img class="mx-4" style="height: 60px;" src="images/postgresql.png" alt="PostgreSQL">
+          <img class="mx-4" style="height: 60px;" src="images/heroku.jpeg" alt="Heroku">
+        </div>
+        <h5 class="m-5 px-3">Tech I am learning now:</h5>
+        <div class="m-5 d-flex">
+          <img class="mx-4" style="height: 60px;" src="images/react.png" alt="React">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ------------Coding Projects------------ -->
+  <div class="coding-project-content row" id="projects" style="align-items: center;">
+    <h1 class="text-center pt-4 col-4">Coding projects</h1>
+    <div class="d-flex justify-content-center col-8">
+      <!-- -------Barhop------- -->
+      <div class="d-flex flex-column">
+        <div class="d-flex justify-content-center mt-5">
+          <h4>Barhop</h4>
+        </div>
+        <div class="card-category mx-5 mt-1 project-card" style="background-image: url(images/BarHop.png);
+          width: 439px;
+          height: 236px;">
+          <div class="description-project p-3">
+            <p>This application simplified the process of planning bar crawls by generating curated routes based on user
+              preferences, such as venue type, price, and number of bars. Integrating external API's. </p>
+            <div class="d-flex">
+              <div>
+                <h4>Technologies</h4>
+                <div class="d-flex" id="technologies">
+                  <img class="mx-1" src="images/rails.png" alt="Ruby on rails">
+                  <img class="mx-1" src="images/javascript.png" alt="Javascript">
+                  <img class="mx-1" src="images/postgresql.png" alt="PostgreSQL">
+                  <img class="mx-1" src="images/html.png" alt="HTML">
+                  <img class="mx-1" src="images/scss.png" alt="SCSS">
+                  <img class="mx-1" src="images/heroku.jpeg" alt="Heroku">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-3 mt-4">
+          <a href="https://github.com/dyloff/barhop" target="_blank"><button type="button"
+              class="btn btn-outline-primary mx-2 button-link">Code</button></a>
+          <a href="https://www.barhop.tech/" target="_blank"><button type="button"
+              class="btn btn-outline-primary mx-2 button-link">Demo</button></a>
+        </div>
+      </div>
+      <!-- -------Render------- -->
+      <div class="d-flex flex-column">
+        <div class="d-flex justify-content-center mt-5">
+          <h4>Render</h4>
+        </div>
+        <div class="card-category mx-5 mt-1 project-card" style="background-image: url(images/render.png);
+          width: 439px;
+          height: 236px;">
+          <div class="description-project p-3">
+            <p>A web application for renting artwork, with features such as listing your artwork,filtering and search,
+              making artwork bookings and adding reviews</p>
+            <div class="d-flex">
+              <div>
+                <h4>Technologies</h4>
+                <div class="d-flex" id="technologies">
+                  <img class="mx-1" src="images/rails.png" alt="Ruby on rails">
+                  <img class="mx-1" src="images/javascript.png" alt="Javascript">
+                  <img class="mx-1" src="images/postgresql.png" alt="PostgreSQL">
+                  <img class="mx-1" src="images/html.png" alt="HTML">
+                  <img class="mx-1" src="images/scss.png" alt="SCSS">
+                  <img class="mx-1" src="images/heroku.jpeg" alt="Heroku">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-3 mt-4">
+          <a href="https://github.com/AlekP141/Render" target="_blank"><button type="button"
+              class="btn btn-outline-primary mx-2 button-link">Code</button></a>
+          <a href="https://render-lw1230.herokuapp.com/" target="_blank"><button type="button"
+              class="btn btn-outline-primary mx-2 button-link">Demo</button></a>
+        </div>
+      </div>
+
+      <!-- -------Game------- -->
+
+    </div>
+  </div>
+
+  <!-- -------Work Experience------- -->
+  <div class="py-4" id="work" style=" width: 100%; background-color: white;">
+    <h1 class="text-center pt-4"><span id="experience-underline" style="color: #DC3952 ;">Work</span> experience</h1>
+    <div class="d-flex justify-content-center">
+      <!-- -----Pollinate----- -->
+      <div class="card ml-3 mt-5 mb-5 cards p-4 pollinate mr-3" style=" width: 98%">
+        <div class="d-flex flex-column">
+          <div class="d-flex justify-content-between">
+            <a class="text-center" href="https://www.pollinate.global/" target=”_blank”
+              style="text-decoration: none; color: #DC3952;">
+              <h4><strong>Pollinate</strong></h4>
+            </a>
+            <p>London, UK</p>
+          </div>
+          <div class="d-flex justify-content-between">
+            <p class="card-text"><i>Business Analyst</i></p>
+            <p><i>Jan 2022 - Jan 2023</i></p>
+          </div>
+          <ul class="ml-3">
+            <li>Collaborated with Pollinate CEO and Chief of Staff to drive strategic decision-making, prioritise the
+              revitalisation of bank-business connections through innovative payment solutions, and deliver high-quality
+              documents and presentations to board members, shareholders, and stakeholders</li>
+            <li>Conducted comprehensive market research and analysis across multiple sectors, including SME, consumer,
+              technology, and banking, facilitating data-driven decision-making, informing partnership choices, and
+              guiding
+              product development in the financial services market</li>
+          </ul>
+        </div>
+      </div>
+      <!-- -----Rugby----- -->
+      <div class="card ml-3 mt-5 mb-5 cards p-4 rugby-open mr-3" style="width: 95%">
+        <div class="d-flex flex-column">
+          <div class="d-flex justify-content-between">
+            <a class="text-center" href="https://www.viasarfatti25.unibocconi.eu/notizia.php?idArt=20554"
+              target=”_blank” style="text-decoration: none; color: #DC3952;">
+              <h4><strong>Zebre | Italy u20</strong></h4>
+            </a>
+            <p>Italy</p>
+          </div>
+          <div class="d-flex justify-content-between">
+            <p class="card-text"><i>Professional Rugby Player</i></p>
+            <p><i>Jan 2016 - June 2021</i></p>
+          </div>
+          <ul class="ml-3">
+            <li>Demonstrated exceptional leadership skills on the rugby field, effectively guiding and motivating
+              teammates to work together towards shared objectives</li>
+            <li>Exhibited a proactive and supportive approach, providing guidance and encouragement to teammates to
+              ensure
+              collective success and achievement of team goals</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ------------Education------------ -->
+  <div class="" id="education" style="background-color: #EDF2F4;">
+    <div class="d-flex justify-content-start " style="align-items: center;">
+      <!-- -------Le Wagon------- -->
+      <div class="card ml-3 mt-5 mb-5 cards p-4" style="border-radius: 30px;width: 325px;">
+        <div class="d-flex flex-column">
+          <div class="d-flex justify-content-between">
+            <h5 class="card-title education-img"><img src="images/le_wagon.png" alt="Le Wagon logo"></h5>
+            <h6 class="">London, UK</h6>
+          </div>
+          <a class="text-center" href="pdf/le_wagon_certificate.pdf" target=”_blank”
+            style="text-decoration: none; color: #DC3952;">
+            <h5><strong>Le Wagon</strong></h5>
+          </a>
+        </div>
+        <p class="card-text text-center">Full-stack web development bootcamp</p>
+        <div class="d-none show-le-wagon">
+          <ul>
+            <li>9-week full-time bootcamp learning Ruby, Rails, Javascript ES6, Stimulus, Mustache.js, Object Oriented
+              Programming, CSS, HTML, Figma, Heroku, git, GitHub and SQL</li>
+            <li>Designed, developed and shipped 2 final projects to production</li>
+          </ul>
+        </div>
+        <p class="text-center" id="le-wagon" style="cursor: pointer;"><i class="fa-solid fa-caret-down"></i></p>
+      </div>
+      <!-- -------Oxford------- -->
+      <div class="card ml-3 mt-5 mb-5 cards p-4" style="border-radius: 30px;width: 325px;">
+        <div class="d-flex flex-column">
+          <div class="d-flex justify-content-between">
+            <h5 class="card-title education-img"><img src="images/oxford_logo.png" alt="Oxford logo"></h5>
+            <h6 class="">Online course</h6>
+          </div>
+          <a class="text-center" href="pdf/oxford_certificate.pdf" target=”_blank”
+            style="text-decoration: none; color: #DC3952;">
+            <h5><strong>University of Oxford, Said Business School</strong></h5>
+          </a>
+        </div>
+        <p class="card-text text-center">Oxford Fintech Programme</p>
+        <div class="d-none show-oxford">
+          <p class="card-text">Gained a comprehensive understanding of key aspects in fintech, from artificial
+            intelligence and algorithmic technologies in financial services to digital platforms and mobile financial
+            services.</p>
+        </div>
+        <p class="text-center" id="oxford" style="cursor: pointer;"><i class="fa-solid fa-caret-down"></i></p>
+      </div>
+      <!-- -------Cambridge------- -->
+      <div class="card ml-3 mt-5 mb-5 p-4" style="border-radius: 30px;width: 325px;">
+        <div class="d-flex flex-column">
+          <div class="d-flex justify-content-between">
+            <h5 class="card-title education-img"><img src="images/cambridge_logo.png" alt="Cambridge logo"></h5>
+            <h6 class="">Online course</h6>
+          </div>
+          <a class="text-center" href="pdf/cambridge_certificate.pdf" target=”_blank”
+            style="text-decoration: none; color: #DC3952;">
+            <h5><strong>University of Cambridge</strong></h5>
+          </a>
+        </div>
+        <p class="card-text text-center"> Business and Climate Change: Towards Net Zero Emissions</p>
+        <div class="d-none show-cambridge">
+          <p class="card-text">Extensive knowledge of the organizational risks and opportunities associated with climate
+            change.Proficient in leading initiatives to transition towards net zero emissions and strategically rewiring
+            business models for long-term value and resilience.</p>
+        </div>
+        <p class="text-center" id="cambridge" style="cursor: pointer;"><i class="fa-solid fa-caret-down"></i></p>
+      </div>
+      <!-- -------Bocconi------- -->
+      <div class="card ml-3 mt-5 mb-5 cards p-4" style="border-radius: 30px;width: 325px;">
+        <div class="d-flex flex-column">
+          <div class="d-flex justify-content-between">
+            <h5 class="card-title education-img"><img src="images/bocconi_logo.png" alt="Bocconi logo"></h5>
+            <h6 class="">Milan, Italy</h6>
+          </div>
+          <a class="text-center"
+            href="https://www.unibocconi.eu/wps/wcm/connect/bocconi/sitopubblico_en/navigation+tree/home/"
+            target=”_blank” style="text-decoration: none; color: #DC3952;">
+            <h5><strong>Bocconi University</strong></h5>
+          </a>
+        </div>
+        <p class="card-text text-center">BSc International Economics and Management</p>
+        <div class="d-none show-bocconi">
+          <p class="card-text">A holistic approach to international business with a wide variety of courses, including
+            Economics, Law, Computer Science, Blockchain, Corporate Finance, Accounting, and Mathematics</p>
+        </div>
+        <p class="text-center" id="bocconi" style="cursor: pointer;"><i class="fa-solid fa-caret-down"></i></p>
+      </div>
+      <div style="width: 496px;">
+        <h1 class="text-center mt-4" style="color: #36393E">Education</h1>
+      </div>
+    </div>
+  </div>
+  <!-- ------------Contact------------ -->
+  <div class="row" style="align-items: center;background-color: white;">
+    <div class="card m-4 px-4 py-2 col-6"
+      style="width: 45rem;background-color: #282C34; color: #ABB2BF; font-family: 'Inconsolata', monospace;">
+      <div class="d-flex">
+        <div class="mr-3" id="numbers">
+          <div class="d-flex flex-column">
+            <h4 class="font"> 1</h4>
+            <h4 class="font">2</h4>
+            <h4 class="font">3</h4>
+            <h4 class="font">4</h4>
+            <h4 class="font">4</h4>
+            <h4 class="font">6</h4>
+            <h4 class="font">7</h4>
+            <h4 class="font">8</h4>
+            <h4 class="font">9</h4>
+            <h4 class="font">10</h4>
+          </div>
+        </div>
+        <div id="contact-card">
+          <h4 class="card-title"><span style="color: #C678DD">class </span><span class="mx-2"
+              style="color: #A7E22E">ContactMe</span> &#123</h4>
+          <div class="d-flex flex-column">
+            <div class="d-flex">
+              <h5>.. <span style="color: #C678DD">email</span>( ) &#123</h5>
+            </div>
+            <div>
+              <h5>.... <span style="color: #E06C75">this</span>.<span style="color: #56B6C2">email</span> <span
+                  class="mx-2">=</span> "<span style="color: #FFD866">lorenzomasselli1@gmail.com</span>" ;</h5>
+            </div>
+            <div>
+              <h5 data-toggle="tooltip" data-placement="top" id="tooltip" title="Copy to clipboard">.... <span
+                  style="color: #A8DD76">'</span><i class="fa-solid fa-copy clipboard-button cursor"
+                  style="color: white"></i><span style="color: #A8DD76">'</span> / <span class="mr-2">/</span>click to
+                copy
+                to the clipboard ;</h5>
+              <div class="input-group ml-3">
+                <input class="form-control d-none" id="clipboard" type="text" value="lorenzomasselli1@gmail.com"
+                  readonly>
+              </div>
+            </div>
+            <div>
+              <h5>.. &#125;</h5>
+            </div>
+            <div class="d-flex">
+              <h5>.. <span style="color: #C678DD">linkedIn</span>( ) &#123</h5>
+            </div>
+            <div>
+              <h5>.... <span style="color: #E06C75">this</span>.<span style="color: #56B6C2">linkedIn</span> <span
+                  class="mx-2">=</span> "<span style="color: #FFD866">lorenzo-masselli-6a1894129</span>" ;</h5>
+            </div>
+            <div>
+              <h5>.... <span style="color: #A8DD76">'</span><a class="ml-2 my-2 "
+                  href="https://www.linkedin.com/in/lorenzo-masselli-6a1894129/" target="_blank"><i
+                    class="fab fa-linkedin-in fa-l" style="color: #0C65C2;" id="logo"></i>
+                </a>
+                <span style="color: #A8DD76">'</span> / <span class="mr-2">/</span>click to go to linkedIn ;</h5>
+
+            </div>
+            <div>
+              <h5>.. &#125;</h5>
+            </div>
+            <div>
+              <h4>&#125;</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-5 text-center cursor back-to-top">
+      <div class="d-flex flex-column justify-content-center"></div>
+      <i class="fa-regular fa-circle-up fa-2xl"></i>
+      <h5>Back to the top</h5>
+    </div>
+  </div>
+
+  <script type="module" src="javascript.js"></script>
+</body>
+
 </html>
